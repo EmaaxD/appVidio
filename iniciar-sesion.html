@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/start-sesion.css">
+    <title>Inicio de sesion</title>
+</head>
+<body>
+    <header class="header">
+        <img src="img/logo-platzi-video.png" class="header__img" alt="logo de la web">
+    </header>
+    <section class="login">
+        <div class="login__container text-white">
+            <h2>Inicia sesion</h2>
+            <form class="login__container--form" action="index.html">
+                <input type="text" class="input" placeholder="Correo">
+                <input type="password" class="input" placeholder="Contraseña">
+
+                <div class="login__container--form-error">
+                    <p>Maquetacion de msj error 😪</p>
+                </div>
+
+                <button class="button text-white">Iniciar sesion</button>
+
+                <div class="login__container--remember-me size-14">
+                    <label for="cbox1">
+                        <input type="checkbox" id="cbox1" value="checkbox">Recuerdame
+                    </label>
+                    <a href="#">Olvide mi contraseña</a>
+                </div>
+            </form>
+            <div class="login__container--social-media size-14">
+                <div class="login-google p-1">
+                    <img src="img/google-icon.png" alt="google">
+                    <a href="#">Inicia sesion con Google</a>
+                </div>
+                <div class="login-twitter p-1">
+                    <img src="img/twitter-icon.png" alt="twitter">
+                    <a href="#">Inicia sesion con Twitter</a>
+                </div>
+            </div>
+            <p class="login__container--register size-14">No tienes ninguna cuenta? <a href="crear-cuenta.html">Registrate</a></p>
+        </div>
+    </section>
+    <footer class="footer size-14">
+        <a href="#">Terminos de uso</a>
+        <a href="#">Declaracion de privacidad</a>
+        <a href="#">Centro de ayuda</a>
+    </footer>
+</body>
+</html>
