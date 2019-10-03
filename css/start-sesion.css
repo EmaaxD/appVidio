@@ -56,6 +56,20 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+.btn-error {
+    background-color: #ef4b4b;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all .3s ease-out;
+    box-sizing: border-box;
+}
+
+.btn-error:hover {
+    background-color: #ED4D6E;
+    border: 1px solid #eee;
+}
+
 .text-white {
     color: white;
 }
@@ -181,6 +195,58 @@ a:hover {
 
 .footer a {
     padding-left: 30px;
+}
+
+/*Error 404*/
+.error404 {
+    background: linear-gradient(#ED4D6E,#DB6C79);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(110vh - 200px);
+}
+
+.error404__container {
+    min-height: 700px;
+    margin-top: -44px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.error404__container--logo {
+    border-right: 1px solid white;
+    padding: 20px;
+}
+
+.error404__container--logo > h1 {
+    font-size: 110px;
+    font-weight: 500;
+}
+
+.error404__container--logo > img {
+    width: 100px;
+    position: relative;
+    left: 54px;
+}
+
+.error404__container--desc {
+    margin-left: -222px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.error404__container--desc > h2 {
+    font-size: 30px;
+}
+
+.error404__container--desc > p {
+    font-size: 17px;
 }
 
 @media only screen and (max-width:600px) {
