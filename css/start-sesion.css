@@ -56,7 +56,7 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.btn-error {
+/* .btn-error {
     background-color: #ef4b4b;
     padding: 10px;
     border-radius: 10px;
@@ -68,7 +68,7 @@ a:hover {
 .btn-error:hover {
     background-color: #ED4D6E;
     border: 1px solid #eee;
-}
+} */
 
 .text-white {
     color: white;
@@ -197,7 +197,7 @@ a:hover {
     padding-left: 30px;
 }
 
-/*Error 404*/
+/* Error 404
 .error404 {
     background: linear-gradient(#ED4D6E,#DB6C79);
     display: flex;
@@ -247,7 +247,7 @@ a:hover {
 
 .error404__container--desc > p {
     font-size: 17px;
-}
+} */
 
 @media only screen and (max-width:600px) {
     .size-14 {
